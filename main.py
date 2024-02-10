@@ -23,7 +23,9 @@ def parse_date(user_string):
 #REMOVE PASS AND YOUR CODE GOES HERE
 if __name__ == '__main__':
     while True:
+        #making sure the code ends when -1 is input
         user_input = input()
         if user_input =='-1':
             break
         print(parse_date(user_input))
+#pushing this again to makesure it all goes well
